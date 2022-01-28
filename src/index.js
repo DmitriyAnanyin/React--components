@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Clock from './components/ClockClass'
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Clock/>
   </React.StrictMode>,
   document.getElementById('root')
 );
